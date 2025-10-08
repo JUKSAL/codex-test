@@ -1,6 +1,6 @@
 # Calculator App
 
-A simple yet polished calculator experience built with React Native and Expo. The design mirrors the familiar four-column layout from classic handheld calculators while adding modern styling, subtle shadows, and responsive text sizing.
+A polished, responsive calculator experience now built with Next.js. The layout mirrors the familiar four-column flow from classic handheld calculators while taking advantage of modern web styling, subtle shadows, and adaptive text sizing.
 
 ## Features
 
@@ -21,15 +21,15 @@ A simple yet polished calculator experience built with React Native and Expo. Th
 2. Start the development server:
 
    ```bash
-   npm run start
+   npm run dev
    ```
 
-3. Use the Expo Go app on your device or an emulator to preview the calculator UI.
+3. Open [`http://localhost:3000`](http://localhost:3000) in your browser to interact with the calculator UI.
 
 ## Project Structure
 
-- `App.js` – Main React Native entry point containing the calculator UI and logic.
-- `app.json` – Expo configuration file describing the project metadata.
+- `app/` – Next.js App Router entry with the page shell and global styles.
+- `components/Calculator.jsx` – Main calculator component containing UI layout and interaction logic.
 - `package.json` – Project manifest with dependencies and scripts.
 
 ## Testing
